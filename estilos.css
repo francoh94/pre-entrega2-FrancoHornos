@@ -1,0 +1,169 @@
+  @import url('https://fonts.cdnfonts.com/css/comic-runes');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    scroll-behavior: smooth;
+}              
+h1{
+    font-family: 'Comic Runes', sans-serif;
+    font: weight 700;
+    font-size: 700%;
+    text-align: center;
+     padding-top: 5%;
+     color: white; 
+
+}
+header{
+    background-image: url(img/fondo.jpg);
+    height: 600px;
+   display: grid;
+}
+.navbar{
+    align-items: flex-end;
+}
+.nav-item{
+   font-size: larger;
+}
+.nav-item a:hover{
+    background-color: rgba(255, 255, 255, 0.406);
+    
+}
+.entrenamiento{
+    height: auto;
+    text-align: center;
+    display: grid;
+    margin-bottom: 20px;
+}
+.entrenamiento-items{
+   padding: 20px;
+   align-items: center;
+}
+.entrenamiento-items:hover{
+    scale: 1.05;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+    .video{
+        height: auto;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(211,215,218,1) 5%, rgba(43,67,87,1) 53%); 
+width: auto;
+    }
+    .tubox{
+        text-align: center;
+       color:black ;
+    }
+.videos{ 
+
+    margin-bottom: 40px;  
+}
+.videoss{
+ padding-left: 10px;
+ padding-right: 10px;
+ 
+}
+    .videos:hover{
+        scale: 1.005;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.caja1 a{
+    color: black;
+    text-decoration: none;
+}
+.caja1 a:hover{
+   color: #2b42576c;
+}
+footer{
+    background-color: gainsboro;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 20px;
+    width: 100%;
+}
+footer p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer i{
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 20px;
+    color: black;
+
+}
+footer i:hover{
+    color: #2b42576d;
+}
+.redesi{
+    text-align: center;
+}
+.subir{
+   height: 40px;
+   width: 40px;
+   position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: black;
+  font-size: xx-large;
+ 
+}
+.subir i:hover{
+    color: gray;
+}
+.carousel{
+    background: rgb(43,67,87);
+background: linear-gradient(180deg, rgba(43,67,87,1) 0%, rgba(255,255,255,1) 100%, rgba(246,246,246,1) 100%); 
+   display: grid;
+}
+.carousel-inner{
+    width: auto;
+    height: 100vh;
+    padding: 20px;
+    
+}
+
+
+
+.slide-in-bck-center {
+	-webkit-animation: slide-in-bck-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-in-bck-center {
+    0% {
+      -webkit-transform: translateZ(600px);
+              transform: translateZ(600px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bck-center {
+    0% {
+      -webkit-transform: translateZ(600px);
+              transform: translateZ(600px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @media only screen and (min-width: 992px) 
+  {
+    h1{
+        font-size: 1000%;
+    }
+  }
