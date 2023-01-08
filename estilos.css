@@ -72,13 +72,7 @@ width: auto;
 }
 
 
-.caja1 a{
-    color: black;
-    text-decoration: none;
-}
-.caja1 a:hover{
-   color: #2b42576c;
-}
+
 footer{
     background-color: gainsboro;
     color: black;
@@ -87,22 +81,19 @@ footer{
     padding: 20px;
     width: 100%;
 }
-footer p{
-    margin-bottom: 10px;
-    text-align: center;
+footer a{
+    color: black;
 }
 footer i{
     font-size: 50px;
-    text-align: center;
     letter-spacing: 20px;
-    color: black;
-
 }
-footer i:hover{
+.redes:hover{
     color: #2b42576d;
 }
 .redesi{
     text-align: center;
+    margin-bottom: 10px;
 }
 .subir{
    height: 40px;
