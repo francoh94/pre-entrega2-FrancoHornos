@@ -15,7 +15,7 @@ h1{
     text-align: center;
      padding-top: 5%;
      color: white; 
-
+padding-bottom: 20px;
 }
 header{
     background-image: url(img/fondo.jpg);
@@ -118,12 +118,10 @@ background: linear-gradient(180deg, rgba(43,67,87,1) 0%, rgba(255,255,255,1) 100
 }
 .carousel-inner{
     width: auto;
-    height: 100vh;
     padding: 20px;
     align-content: center;
-    align-items: center;
     max-width: 100%;
-    height: auto; 
+    height: 100%; 
 }
 
 
@@ -164,3 +162,10 @@ background: linear-gradient(180deg, rgba(43,67,87,1) 0%, rgba(255,255,255,1) 100
         font-size: 1000%;
     }
   }
+  @media only screen and (min-width:1200px )
+{
+    .carousel-inner{
+        height: 70%;
+        padding: 100px;
+    }   
+}
