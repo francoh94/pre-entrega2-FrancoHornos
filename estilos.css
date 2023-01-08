@@ -94,6 +94,7 @@ footer i{
 .redesi{
     text-align: center;
     margin-bottom: 10px;
+
 }
 .subir{
    height: 40px;
@@ -119,8 +120,12 @@ background: linear-gradient(180deg, rgba(43,67,87,1) 0%, rgba(255,255,255,1) 100
     width: auto;
     height: 100vh;
     padding: 20px;
-    
+    align-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto; 
 }
+
 
 
 
