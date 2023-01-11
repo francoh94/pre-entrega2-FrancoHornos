@@ -131,6 +131,8 @@ footer i {
     rgba(255, 255, 255, 1) 100%,
     rgba(246, 246, 246, 1) 100%
   );
+  display: flex;
+  flex-direction: column;
 }
 .carousel-inner {
   width: auto;
@@ -173,8 +175,9 @@ footer i {
   
   @media screen and (min-width: 1200px) {
     .carousel-inner {
-      height: 70%;
       padding: 100px;
+      height: 100vh;
+    
     }
   }  
 @media screen and (min-width: 992px) {
